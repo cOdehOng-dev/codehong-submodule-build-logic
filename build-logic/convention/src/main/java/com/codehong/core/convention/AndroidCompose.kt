@@ -53,6 +53,8 @@ internal fun Project.configureAndroidCompose(
         add("implementation", libs.getLibrary("androidx-compose-viewmodel"))
         add("implementation", libs.getLibrary("androidx-compose-runtime-livedata"))
         add("implementation", libs.getLibrary("androidx-compose-foundation-layout-android"))
+        add("implementation", libs.getLibrary("androidx-compose-material3-adaptive"))
+        add("implementation", libs.getLibrary("androidx-material-icons-extended"))
 
         add("implementation", libs.getLibrary("google-accompanist-permissions"))
         add("implementation", libs.getLibrary("google-accompanist-flowlayout"))
@@ -60,6 +62,7 @@ internal fun Project.configureAndroidCompose(
         add("implementation", libs.getLibrary("google-accompanist-pager-indicators"))
 
         add("implementation", libs.getBundle("coil"))
+        add("implementation", libs.getBundle("glide"))
 
         add("debugImplementation", libs.getLibrary("androidx-compose-ui-tooling"))
         add("debugImplementation", libs.getLibrary("androidx-compose-ui-test-manifest"))
