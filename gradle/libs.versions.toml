@@ -197,6 +197,9 @@ naver-map-location = { group = "io.github.fornewid", name = "naver-map-location"
 threetenapb = { group = "com.jakewharton.threetenabp", name = "threetenabp", version.ref = "threetenapb" }
 haze = { group = "dev.chrisbanes.haze", name = "haze", version.ref = "hazeVerion" }
 
+# palette
+androidx-palette = { group = "androidx.palette", name = "palette-ktx", version = "1.0.0" }
+
 [bundles]
 retrofit = ["retrofit", "retrofit-gson", "retrofit-scalars", "retrofit-simplexml"]
 coil = ["coil", "coil-svg", "coil-gif", "coil-compose"]
