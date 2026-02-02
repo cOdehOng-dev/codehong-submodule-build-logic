@@ -52,6 +52,10 @@ gradlePlugin {
             id = libs.plugins.codehong.android.room.get().pluginId
             implementationClass = "AndroidRoomConventionPlugin"
         }
+        register("androidNetwork") {
+            id = libs.plugins.codehong.android.network.get().pluginId
+            implementationClass = "NetworkLibraryConventionPlugin"
+        }
         register("androidLibraryPublishing") {
             id = libs.plugins.codehong.android.library.publishing.get().pluginId
             implementationClass = "PublishingLibraryConventionPlugin"
