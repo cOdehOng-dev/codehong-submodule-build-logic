@@ -90,7 +90,7 @@ androidx-constraintlayout = { group = "androidx.constraintlayout", name = "const
 androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version = "1.4.0" }
 androidx-viewpager2 = { group = "androidx.viewpager2", name = "viewpager2", version = "1.1.0" }
 androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version = "1.0.1" }
-androidx-browser = { group = "androidx.browser", name = "browser", version = "1.9.0" }
+androidx-browser = { group = "androidx.browser", name = "browser", version = "1.8.0" }
 
 # compose
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version = "1.10.1" }
